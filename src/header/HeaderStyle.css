@@ -1,0 +1,241 @@
+.tabbar {
+     width: 100%;
+     height: 3.735rem;
+     background-color: #015330;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+}
+
+.menuicon {
+     width: 1.8rem;
+     position: absolute;
+     right: 1rem;
+     top: 50%;
+     bottom: 50%;
+     transform: translateY(-50%);
+}
+.logo{
+     width: 35px;
+     border-radius: 50%;
+     margin-left: 0.6rem;
+}
+.container {
+     margin-top: 4rem;
+}
+.btn1{
+     color: white;
+     width: 9rem;
+     background-color: #EC3948;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     right: 20px;
+     animation-name: scale;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+.btn1 h4{
+     font-size: 1rem;
+     margin-top: 7px;
+     font-weight: 700;
+}
+.zalocon{
+     width: 22px;
+     object-fit: contain;
+     margin-left: 0.6rem;
+     margin-bottom: 5px;
+     margin-right: 6px;
+}
+.note_register{
+     align-items: center;
+     display: flex;
+     margin-top: 1rem;
+     flex-direction: row;
+     justify-content: center;
+}
+@keyframes scale {
+     0% {
+       transform: scale(1);
+     }
+     100% {
+       transform: scale(1.1);
+     }
+   }
+.header_box {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background:linear-gradient(to bottom,#06472b,#389e72);
+     margin-bottom: 1.5rem;
+     height: 3.5rem;
+     
+}
+.header_box h3 {
+     color: rgb(255, 255, 255);
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-style: italic;
+     text-align: center;
+     line-height: 1.6;
+     text-shadow: var(--bar_color) 1px 3px 2px;
+}
+
+.header_box h2 {
+     color: rgb(255, 255, 255);
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-style: italic;
+     text-align: center;
+     line-height: 1.6;
+     text-shadow: var(--bar_color) 1px 3px 3px;
+}
+
+.header {
+     background: radial-gradient(circle, var(--primary_color), rgba(160, 222, 164, 0.8));
+     margin-bottom: 1.5rem;
+     
+}
+
+body {
+     /* background: radial-gradient(circle, rgba(254, 234, 234, 1.0), var(--bg_color)); */
+     display: flex;
+     align-items: center;
+     background-color: #eee;
+     /* background: linear-gradient(to right,var(--color-bg),#fff,var(--color-bg)); */
+}
+
+.body {
+     position: relative;
+     padding: 0px 0.3rem;
+}
+
+.body .text1 {
+     color: var(--color-text-primary);
+     font-size: 1.6rem;
+     font-weight: bold;
+     font-style: italic;
+     line-height: 1.6;
+     text-decoration: underline;
+     margin-left: 1.5rem;
+     position: absolute;
+     top: -0.5rem;
+}
+
+.title .text2 {
+     color: #02180f;
+     font-size: 4.5rem;
+     text-align: center;
+     line-height: 1.6;
+     text-shadow: rgb(255 255 255) 1px 2px 7px;
+     font-style: italic;
+}
+.title{
+}
+.title .text3 {
+     color:#067748;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.6;
+
+    font-weight:bold;
+    text-align: center;
+    
+
+    text-align: center;
+    line-height: 1.6;
+    text-shadow: rgb(255 255 255) 1px 2px 7px
+}
+
+.title .text4 {
+     color:#F6873F;
+     font-size: 1.9rem;
+     font-weight: bold;
+     text-align: center;
+     line-height: 1.6;
+     text-shadow: rgb(255 255 255) -6px 3px 9px;
+}
+
+
+.iamge_header {
+     background-repeat: no-repeat;
+     background-position: left top;
+     background-size: cover;
+     background-attachment: scroll;
+     background-origin: content-box;
+     margin: 0 auto;
+     pointer-events: none;
+     width: 100%;
+     margin-bottom: 1rem;
+}
+
+.iamgeheader h4 {
+     color: rgb(0, 0, 0);
+     font-size:0.8rem;
+     font-weight: bold;
+     font-style: italic;
+     text-align: center;
+     line-height: 1.6;
+}
+
+.phone .zalo{
+     color: blue;
+}
+.iamgeheader h2 {
+     color: var(--color-text-primary);
+     font-size: 1.2rem;
+     font-weight: bold;
+     text-align: center;
+     line-height: 1.6;
+     text-shadow: rgb(255 255 255) 3px 2px 6px;
+}
+
+.btn_register {
+     color: rgb(255, 255, 255);
+     font-size: 1.2rem;
+     font-weight: bold;
+     line-height: 1.6;
+     background-color: var(--btn_color);
+     border-radius: 2rem;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     width: max-content;
+     margin-top: 2rem;
+     padding: 1rem;
+     animation: bounce 1s 0.5s infinite;
+     margin-bottom: 1rem;
+}
+.address_form{
+     display: flex;
+     flex-direction: row;
+     padding: 1rem 0;
+     position: relative;
+     align-self: center;
+     left: 50%;
+     transform: translateX(-50%);
+}
+.address_form h2{
+     font-family: "Quicksand", sans-serif;
+     color: #F35844;
+}
+.btn_address{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+@media screen and (min-width:800px){
+     .address_form{
+     width: 80%;
+     
+     }
+     .iamge_header{
+     }
+   }
+   
+   @media screen and (max-width:800px) {
+     
+     
+   }

@@ -1,0 +1,46 @@
+.slide_box_address{
+     width: 35rem;
+     height: 23rem;
+}
+.ladi_headline_slide{
+
+}
+.content_text_slide h3{
+     font-size: 0.5rem;
+}
+.content_text_slide h2{
+     font-size: 0.5rem;
+
+}
+.content_slide1{
+     width: 24rem;
+     background-color: white;
+     border-radius: 10px;
+     height: 18rem;
+     position: relative;
+     left: -2rem;
+}
+@media screen and (min-width:800px){
+     .manybox{
+          margin-bottom: 2rem;
+     }
+   }
+   
+  
+   @media screen and (max-width:600px) {
+     .slide_box_address{
+          width: 20rem;
+          height: 15rem;
+     }
+     .content_slide1{
+          width: 20rem;
+          background-color: white;
+          border-radius: 10px;
+          height: 10rem;
+          position: relative;
+          top: -1.5rem;
+          left: 50%;
+          border-radius: 0 0 10px 10px;
+          transform: translateX(-50%);
+     }
+   }

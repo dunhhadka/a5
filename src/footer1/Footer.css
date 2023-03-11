@@ -1,0 +1,28 @@
+.Footer_address{
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 2px;
+}
+.icon_footer{
+     width: 18px;
+     object-fit: contain;
+}
+.box_namefooter{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 0.6rem;
+     
+}
+.name_footer{
+     font-size: 0.8rem;
+     margin-top: 6px;
+}
+.FooterContainer{
+     background: #01532F;
+     color: white;
+     padding-top: 2rem;
+     margin-top: 6rem;
+     padding-bottom: 2rem;
+     padding: 1rem;
+}

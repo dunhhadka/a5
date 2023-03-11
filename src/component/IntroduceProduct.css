@@ -1,0 +1,50 @@
+.IntroContainer{
+     width: 400px;
+     background-color:#fff;
+     padding: 1.4rem 1.2rem;
+     position: relative;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     left: 50%;
+     text-align: justify;
+     transform: translateX(-50%);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 2rem;
+     border-radius: 5px;
+}
+.IntroBoxImage{
+     padding: 3px;
+     border-radius: 50%;
+     background-color: #FFC208;
+     margin-bottom: 1rem;
+}
+.IntroImage{
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+}
+.TitleIntro{
+     font-size: 1.25rem;
+     color: #053a23;
+     font-weight: 600;
+     margin-bottom: 1rem;
+}
+.IntroContent{
+
+}
+.IntroText{
+     font-size: 1rem;
+     line-height: 1.3rem;
+}
+
+@media screen and (min-width:800px){
+     
+   }
+   
+   
+   @media screen and (max-width:600px) {
+     .IntroContainer{
+          width: 90vw;
+     }
+   }

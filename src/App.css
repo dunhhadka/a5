@@ -1,0 +1,146 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+:root{
+  --color-bg: rgba(227, 240, 166, 0.4);
+  --color-primary:#53ac19;
+  --color-white:#fff;
+  --color-light:rgba(255,255,255,0.6);
+  --color-text-primary:#0b9c12;
+
+  --container-with-lg:75%;
+  --container-with-md:86%;
+  --container-with-ms:90%;
+}
+
+.App{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background: white;
+  background-position: center;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Quicksand", sans-serif;
+  /* background-image: url("./images/bg.jpg"); */
+  /* background: radial-gradient(circle, rgba(254, 234, 234, 1.0), var(-bg)) */
+}
+.form_and_header{
+  display: flex;
+  flex-direction: column;
+}
+
+.form_and_header::after{
+  content: "";
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+.line{
+  width: 80vw;
+  height: 2px;
+  background-color: #fff;
+  margin:2rem 0 ;
+  align-self: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container_slide{
+  height:20rem;
+  position: relative;
+  margin-top: 5rem;
+
+}
+.silde_box{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width:800px){
+  .manybox{
+       margin-bottom: 2rem;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .silde_box{
+    flex-direction: column;
+  }
+}
+
+.textOne{
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.textOne .textOne1{
+  color: #E77A2C;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+.textOne .textOne2{
+  color: #015330;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.lineOne{
+  margin-top: 0.5rem;
+  align-self: center;
+  max-width: 250px;
+  width: 50%;
+  height: 1px;
+  background-color: #015330;
+}
+.FeedBackContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.FeedBackContent .content1{
+  color: #E77A2C;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.FeedBackContent .content2{
+  color: #015330;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.box_svg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  animation: slide 2s infinite linear;
+}
+
+@keyframes slide{
+  0%{
+    opacity: 0.6;
+    top:-1.1rem;
+  }
+  100%{
+    opacity: 1;
+  }
+}
